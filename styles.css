@@ -1,6 +1,40 @@
+
 .header{
     font-family: cursive;
     font-size: xx-large;
     color: rgb(136, 22, 243);
     background-color: rgb(200, 255, 0);
+    display:flex;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	height: 100px;
+    opacity: 0;
+    transition: opacity 10s ease-in-out ;
+}
+.header__text{
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    padding: 0px;
+}
+.table{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+.table__cell{
+    border: solid black 5px;
+    width: 50px;
+    min-width: 130px;
+    height: 50px;
+}
+.page{
+    background-color: cadetblue;
+    padding: 0px;
+}
+.header:hover{
+opacity: 1;
 }
